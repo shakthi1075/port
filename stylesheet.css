@@ -1,0 +1,77 @@
+@import url(/text/font.css);
+
+body{
+    background-color: #1d1d1d;
+    }
+
+.headimg{
+    background-image: url(/images/head-bg.png);
+    padding: 130px 1px;
+    background-repeat: no-repeat;
+}
+    
+.bm{
+    color: aliceblue;
+    padding: 200px 50px;
+    font-family: Yeseva;
+    font-size: 8rem;
+    font-weight: lighter;
+    position: relative;
+    background-image: url(/images/trim.png);
+    background-repeat: no-repeat;
+    background-position-x: 280%;
+    background-position-y: 19%;
+    position: relative;
+ 
+}
+
+.bm:hover{
+    color: #FEFF9E;
+    background-image: url(/images/trim.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 19%;
+    transition-duration: 1s, 0s, 10s;
+
+}
+.box{
+    position: absolute;
+    height: 55px;
+    width: flex;
+    border: 1px solid white;
+    position: relative;
+    padding: 0px 10px;
+
+}
+.link{
+
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size:1.6rem;
+    margin: 0px;
+    padding: 0.3vh 10vh 0vh 60vh;
+    text-align: center;
+    text
+}
+
+.v{
+    padding: 10px 50px 10px;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    background-repeat: no-repeat;
+    border-radius: 2rem;
+    
+    background-size: 0vh;
+}  
+.v:hover{
+    font-weight: bolder;
+    color: #1d1d1d;
+    padding: 10px 50px 10px;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%), cross-fade(2px);
+    box-shadow: 0 0 5px 10px;
+    background-repeat: no-repeat;
+    background-size: 35vh;
+    transition: 2s;
+}
